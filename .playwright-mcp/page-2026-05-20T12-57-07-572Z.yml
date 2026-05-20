@@ -1,0 +1,174 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e8]: TERMINAL // AITL
+      - generic [ref=e9]: v2.6.1
+    - navigation [ref=e10]:
+      - button "INDEX" [active] [ref=e11] [cursor=pointer]
+      - button "CURRENT" [ref=e12] [cursor=pointer]
+      - button "ARCHIVE" [ref=e13] [cursor=pointer]
+      - button "CREW" [ref=e14] [cursor=pointer]
+    - button "◈ TWEAKS" [ref=e16] [cursor=pointer]
+  - generic [ref=e338]:
+    - generic [ref=e339]:
+      - generic [ref=e340]: ◉ LIVE BROADCAST
+      - generic [ref=e341]: INCOMING TRANSMISSION // CYCLE 247
+    - generic [ref=e342]:
+      - generic [ref=e343]:
+        - heading "Field notes from building with language models." [level=1] [ref=e344]
+        - paragraph [ref=e345]: A technical log for engineers shipping AI-powered tools. Post-mortems, patterns, cost models, and the honest failure modes that vendor documentation leaves out.
+        - generic [ref=e346]: ">AWAITING INPUT"
+      - generic [ref=e348]:
+        - text: ◢
+        - generic [ref=e349]:
+          - generic [ref=e350]: STATUS
+          - generic [ref=e351]: ACTIVE
+        - generic [ref=e352]:
+          - generic [ref=e353]: ENTRIES
+          - generic [ref=e354]: 011 INDEXED
+        - generic [ref=e355]:
+          - generic [ref=e356]: CONTRIBUTORS
+          - generic [ref=e357]: 07 CREW
+        - generic [ref=e358]:
+          - generic [ref=e359]: LAST PUSH
+          - generic [ref=e360]: 04.18.26 // 14:22
+        - generic [ref=e361]:
+          - generic [ref=e362]: CHANNEL
+          - generic [ref=e363]: SECURE
+        - generic [ref=e364]:
+          - generic [ref=e365]: INTEGRITY
+          - generic [ref=e366]: 0x4F.A2.91
+  - generic [ref=e367]:
+    - generic [ref=e368]:
+      - generic [ref=e369]: § FEED
+      - generic [ref=e370]: RECENT ENTRIES
+    - generic [ref=e371]:
+      - article [ref=e372] [cursor=pointer]:
+        - generic [ref=e373]:
+          - generic [ref=e374]: LOG-0247
+          - generic [ref=e375]: EVALUATION
+        - generic [ref=e376]: "[ IMG // AGENT_EVALS_THAT_DONT_ ]"
+        - heading "Agent evaluations that don't lie to you" [level=3] [ref=e377]
+        - paragraph [ref=e378]: Most eval suites measure the wrong thing. Here's a harness that actually predicts production regressions — built on replay, canary tasks, and structured disagreement.
+        - generic [ref=e379]:
+          - generic [ref=e380]: 04.18.26 · M. Osei
+          - generic [ref=e381]: READ ▸
+      - article [ref=e382] [cursor=pointer]:
+        - generic [ref=e383]:
+          - generic [ref=e384]: LOG-0246
+          - generic [ref=e385]: INFRA
+        - generic [ref=e386]: "[ IMG // PROMPT_CACHING_COST_MO ]"
+        - heading "A cost model for prompt caching that survives contact with users" [level=3] [ref=e387]
+        - paragraph [ref=e388]: Cache hit rates decay faster than you think. We profile a production agent workload and derive a simple rule for when caching pays.
+        - generic [ref=e389]:
+          - generic [ref=e390]: 04.14.26 · R. Halden
+          - generic [ref=e391]: READ ▸
+      - article [ref=e392] [cursor=pointer]:
+        - generic [ref=e393]:
+          - generic [ref=e394]: LOG-0244
+          - generic [ref=e395]: TOOLING
+        - generic [ref=e396]: "[ IMG // MCP_PRODUCTION_CHECKLI ]"
+        - 'heading "Shipping MCP servers: a production checklist" [level=3] [ref=e397]'
+        - paragraph [ref=e398]: Auth, rate limits, tool schemas, and the three kinds of error that cause silent agent failure.
+        - generic [ref=e399]:
+          - generic [ref=e400]: 04.08.26 · J. Liang
+          - generic [ref=e401]: READ ▸
+      - article [ref=e402] [cursor=pointer]:
+        - generic [ref=e403]:
+          - generic [ref=e404]: LOG-0243
+          - generic [ref=e405]: DESIGN
+        - generic [ref=e406]: "[ IMG // AGENT_LOOPS_THAT_TERMI ]"
+        - heading "Designing agent loops that actually terminate" [level=3] [ref=e407]
+        - paragraph [ref=e408]: Termination is not an afterthought. It's the single most important property of a tool-calling loop — and most teams get it wrong.
+        - generic [ref=e409]:
+          - generic [ref=e410]: 04.04.26 · A. Bello
+          - generic [ref=e411]: READ ▸
+      - article [ref=e412] [cursor=pointer]:
+        - generic [ref=e413]:
+          - generic [ref=e414]: LOG-0242
+          - generic [ref=e415]: OBSERVABILITY
+        - generic [ref=e416]: "[ IMG // READING_TRACES_LIKE_LO ]"
+        - heading "Read agent traces the way you read logs" [level=3] [ref=e417]
+        - paragraph [ref=e418]: A visual language for tool-calling traces, borrowed from distributed tracing. No new tools required.
+        - generic [ref=e419]:
+          - generic [ref=e420]: 03.31.26 · S. Okafor
+          - generic [ref=e421]: READ ▸
+      - article [ref=e422] [cursor=pointer]:
+        - generic [ref=e423]:
+          - generic [ref=e424]: LOG-0241
+          - generic [ref=e425]: PRACTICE
+        - generic [ref=e426]: "[ IMG // STRUCTURED_OUTPUTS_FAI ]"
+        - heading "Five failure modes of structured outputs in production" [level=3] [ref=e427]
+        - paragraph [ref=e428]: The schema compiles. The model cooperates. And then everything falls apart at 3 AM. What to watch for.
+        - generic [ref=e429]:
+          - generic [ref=e430]: 03.27.26 · N. Petrov
+          - generic [ref=e431]: READ ▸
+      - article [ref=e432] [cursor=pointer]:
+        - generic [ref=e433]:
+          - generic [ref=e434]: LOG-0240
+          - generic [ref=e435]: INFRA
+        - generic [ref=e436]: "[ IMG // RAG_IS_A_DISTRIBUTED_S ]"
+        - heading "RAG is a distributed systems problem, not an AI problem" [level=3] [ref=e437]
+        - paragraph [ref=e438]: Embedding drift, index staleness, and retrieval-as-consensus. Treating RAG as the distributed system it is.
+        - generic [ref=e439]:
+          - generic [ref=e440]: 03.22.26 · K. Vasquez
+          - generic [ref=e441]: READ ▸
+      - article [ref=e442] [cursor=pointer]:
+        - generic [ref=e443]:
+          - generic [ref=e444]: LOG-0239
+          - generic [ref=e445]: DESIGN
+        - generic [ref=e446]: "[ IMG // DIFF_REVIEW_FOR_AI_GEN ]"
+        - heading "Diff review is the interaction surface for AI code" [level=3] [ref=e447]
+        - paragraph [ref=e448]: Not chat. Not tab-complete. The diff is where humans and models should meet — and where the next generation of tooling will be built.
+        - generic [ref=e449]:
+          - generic [ref=e450]: 03.18.26 · M. Osei
+          - generic [ref=e451]: READ ▸
+      - article [ref=e452] [cursor=pointer]:
+        - generic [ref=e453]:
+          - generic [ref=e454]: LOG-0238
+          - generic [ref=e455]: UX
+        - generic [ref=e456]: "[ IMG // LATENCY_BUDGET_FOR_COP ]"
+        - heading "A latency budget for copilots" [level=3] [ref=e457]
+        - paragraph [ref=e458]: 200 ms feels instant. 800 ms feels broken. Here's how to allocate the budget across retrieval, inference, and UI.
+        - generic [ref=e459]:
+          - generic [ref=e460]: 03.14.26 · R. Halden
+          - generic [ref=e461]: READ ▸
+      - article [ref=e462] [cursor=pointer]:
+        - generic [ref=e463]:
+          - generic [ref=e464]: LOG-0237
+          - generic [ref=e465]: ARCHITECTURE
+        - generic [ref=e466]: "[ IMG // SMALL_MODELS_BIG_TOOLS ]"
+        - 'heading "Small models, big tools: an architecture pattern" [level=3] [ref=e467]'
+        - paragraph [ref=e468]: When the right move is a 4B param model orchestrating a large tool surface — and when it isn't.
+        - generic [ref=e469]:
+          - generic [ref=e470]: 03.09.26 · J. Liang
+          - generic [ref=e471]: READ ▸
+      - article [ref=e472] [cursor=pointer]:
+        - generic [ref=e473]:
+          - generic [ref=e474]: LOG-0236
+          - generic [ref=e475]: PRACTICE
+        - generic [ref=e476]: "[ IMG // BUILDING_INTERNAL_PLAY ]"
+        - 'heading "Internal playbooks: the artifact teams actually use" [level=3] [ref=e477]'
+        - paragraph [ref=e478]: Forget the prompt library. The highest-leverage artifact in an applied AI team is a shared playbook of tactics that survived production.
+        - generic [ref=e479]:
+          - generic [ref=e480]: 03.05.26 · A. Bello
+          - generic [ref=e481]: READ ▸
+  - contentinfo [ref=e161]:
+    - generic [ref=e162]:
+      - generic [ref=e165]: TERMINAL // AITL
+      - paragraph [ref=e166]: A field log for engineers shipping AI-powered tools. Maintained from orbit. Transmitted in plaintext.
+    - generic [ref=e167]:
+      - heading "CHANNELS" [level=5] [ref=e168]
+      - list [ref=e169]:
+        - listitem [ref=e170] [cursor=pointer]: ◈ RSS FEED
+        - listitem [ref=e171] [cursor=pointer]: ◈ NEWSLETTER
+        - listitem [ref=e172] [cursor=pointer]: ◈ ATOM
+        - listitem [ref=e173] [cursor=pointer]: ◈ JSON API
+    - generic [ref=e174]:
+      - heading "DIVISIONS" [level=5] [ref=e175]
+      - list [ref=e176]:
+        - listitem [ref=e177] [cursor=pointer]: TOOLING
+        - listitem [ref=e178] [cursor=pointer]: INFRA
+        - listitem [ref=e179] [cursor=pointer]: APPLIED
+        - listitem [ref=e180] [cursor=pointer]: OBSERVABILITY
+  - text: ◢

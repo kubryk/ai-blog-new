@@ -1,0 +1,88 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e8]: TERMINAL // AITL
+      - generic [ref=e9]: v2.6.1
+    - navigation [ref=e10]:
+      - button "INDEX" [ref=e11] [cursor=pointer]
+      - button "CURRENT" [ref=e12] [cursor=pointer]
+      - button "ARCHIVE" [ref=e13] [cursor=pointer]
+      - button "CREW" [active] [ref=e14] [cursor=pointer]
+    - button "◈ TWEAKS" [ref=e16] [cursor=pointer]
+  - generic [ref=e280]:
+    - generic [ref=e281]:
+      - generic [ref=e282]: § CREW
+      - generic [ref=e283]: ABOUT THE TRANSMISSION
+    - generic [ref=e284]:
+      - heading "We ship AI tools. We write about what breaks." [level=1] [ref=e285]
+      - generic [ref=e286]:
+        - paragraph [ref=e287]: TERMINAL is a working log maintained by a small group of applied engineers building language-model features into production systems. We publish the failure modes, cost models, and architectural patterns that we wish we had found six months earlier.
+        - paragraph [ref=e288]: No framework hot-takes. No vendor benchmarks. No promises about AGI. The things that ran in production. The things that didn't. The patches in between.
+    - generic [ref=e289]:
+      - generic [ref=e290]:
+        - generic [ref=e291]: DIRECTIVE 01
+        - heading "Ship, measure, report." [level=3] [ref=e292]
+        - paragraph [ref=e293]: We only write about systems we have run against real traffic. If it has not survived a weekend of production, it does not get an entry number.
+      - generic [ref=e294]:
+        - generic [ref=e295]: DIRECTIVE 02
+        - heading "Show the failure first." [level=3] [ref=e296]
+        - paragraph [ref=e297]: Every post opens with what broke. Solutions that do not name the failure they address are advice, and we do not traffic in advice.
+      - generic [ref=e298]:
+        - generic [ref=e299]: DIRECTIVE 03
+        - heading "No vendor endorsements." [level=3] [ref=e300]
+        - paragraph [ref=e301]: We name models and tools where necessary. We do not recommend them. The half-life of a model benchmark is shorter than our review cycle.
+    - generic [ref=e302]:
+      - generic [ref=e303]: ◈ CREW ROSTER
+      - generic [ref=e304]: CONTRIBUTORS // 08 ACTIVE
+    - generic [ref=e305]:
+      - generic [ref=e306] [cursor=pointer]:
+        - generic [ref=e307]: "[ MO ]"
+        - generic [ref=e308]: TOOLING DIV
+        - heading "M. Osei" [level=4] [ref=e309]
+      - generic [ref=e310] [cursor=pointer]:
+        - generic [ref=e311]: "[ RH ]"
+        - generic [ref=e312]: INFRA DIV
+        - heading "R. Halden" [level=4] [ref=e313]
+      - generic [ref=e314] [cursor=pointer]:
+        - generic [ref=e315]: "[ KV ]"
+        - generic [ref=e316]: APPLIED DIV
+        - heading "K. Vasquez" [level=4] [ref=e317]
+      - generic [ref=e318] [cursor=pointer]:
+        - generic [ref=e319]: "[ JL ]"
+        - generic [ref=e320]: TOOLING DIV
+        - heading "J. Liang" [level=4] [ref=e321]
+      - generic [ref=e322] [cursor=pointer]:
+        - generic [ref=e323]: "[ AB ]"
+        - generic [ref=e324]: APPLIED DIV
+        - heading "A. Bello" [level=4] [ref=e325]
+      - generic [ref=e326] [cursor=pointer]:
+        - generic [ref=e327]: "[ SO ]"
+        - generic [ref=e328]: OBSERVABILITY
+        - heading "S. Okafor" [level=4] [ref=e329]
+      - generic [ref=e330] [cursor=pointer]:
+        - generic [ref=e331]: "[ NP ]"
+        - generic [ref=e332]: APPLIED DIV
+        - heading "N. Petrov" [level=4] [ref=e333]
+      - generic [ref=e334] [cursor=pointer]:
+        - generic [ref=e335]: "[ ?? ]"
+        - generic [ref=e336]: SECURITY
+        - heading "[REDACTED]" [level=4] [ref=e337]
+  - contentinfo [ref=e161]:
+    - generic [ref=e162]:
+      - generic [ref=e165]: TERMINAL // AITL
+      - paragraph [ref=e166]: A field log for engineers shipping AI-powered tools. Maintained from orbit. Transmitted in plaintext.
+    - generic [ref=e167]:
+      - heading "CHANNELS" [level=5] [ref=e168]
+      - list [ref=e169]:
+        - listitem [ref=e170] [cursor=pointer]: ◈ RSS FEED
+        - listitem [ref=e171] [cursor=pointer]: ◈ NEWSLETTER
+        - listitem [ref=e172] [cursor=pointer]: ◈ ATOM
+        - listitem [ref=e173] [cursor=pointer]: ◈ JSON API
+    - generic [ref=e174]:
+      - heading "DIVISIONS" [level=5] [ref=e175]
+      - list [ref=e176]:
+        - listitem [ref=e177] [cursor=pointer]: TOOLING
+        - listitem [ref=e178] [cursor=pointer]: INFRA
+        - listitem [ref=e179] [cursor=pointer]: APPLIED
+        - listitem [ref=e180] [cursor=pointer]: OBSERVABILITY
+  - text: ◢
